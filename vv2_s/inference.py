@@ -110,7 +110,7 @@ if __name__ == "__main__":
                            NUM_SAMPLES,
                            device)
 
-    input_data, sr = load_audio_file("TransientDataset\\Input\\full.wav")
+    input_data, sr = load_audio_file("TransientDataset/Input/full.wav")
     input_data = input_data.to(device)
     # summary(regressorNN, input_data.shape)
 

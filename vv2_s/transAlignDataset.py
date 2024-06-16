@@ -6,8 +6,8 @@ import torchaudio
 
 from torch.utils.data import Dataset, DataLoader, TensorDataset
 
-AUDIO_DIR = 'TransientDataset\\Input'
-TARGET_DIR = 'TransientDataset\\Target'
+AUDIO_DIR = 'TransientDataset/Input'
+TARGET_DIR = 'TransientDataset/Target'
 SAMPLE_RATE = 44100
 NUM_SAMPLES = SAMPLE_RATE * 32
 
